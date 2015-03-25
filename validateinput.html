@@ -1,0 +1,21 @@
+<html>
+<body>
+<h1><font color="#8CC10C">Validate Input</font></h1>
+<p><font color="#F3802D">Please Input</font></p>
+<Input id="num" type="number"><button>ok</button>
+<p id="demo"></p>
+<script>
+function myfunction(){
+var x, text;
+x=document.getElementById('num').value;
+if (isNan(x) || x <1 || >10) {
+text="Input is't valid coy";
+
+}else{
+	text="Input it's ok man";
+}
+document.getElementById("demo").innerHTML=text;
+}
+</script>
+</body>
+<html>

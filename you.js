@@ -1,0 +1,7 @@
+<html>
+<body>
+<script>
+document.write(5+6);
+</script>
+</body>
+</html>
